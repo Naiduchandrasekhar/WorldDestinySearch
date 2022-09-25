@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.lists {
+  list-style-type: none;
+  margin: 8px;
+}
+
+.images {
+  height: 100px;
+  width: 150px;
+}
+
+.names {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}

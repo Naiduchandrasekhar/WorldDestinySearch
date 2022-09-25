@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  overflow-x: auto;
+}
+
+.top-header {
+  padding-left: 50px;
+}
+
+.searchBox {
+  display: flex;
+}
+
+.search {
+  background-color: #f1f5f9;
+  border-right: 0px;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.searchImg {
+  height: 25px;
+  border: 2px solid black;
+  border-left: 0px;
+}
+
+.search-img {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px;
+  padding-right: 22px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 3px;
+  width: 170px;
+  background-color: #f1f5f9;
+}
+
+.unorderList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .unorderList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
